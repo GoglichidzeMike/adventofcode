@@ -1,5 +1,5 @@
 var fs = require("fs");
-var inputs = fs.readFileSync("./day6.txt", "utf8");
+var inputs = fs.readFileSync("./inputs/day6.txt", "utf8");
 const groups = inputs
   .replace(/(\r\n|\n|\r)/gm, " ")
   .replace(/  +/g, "\n")

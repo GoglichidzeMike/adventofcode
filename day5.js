@@ -1,5 +1,5 @@
 var fs = require("fs");
-var input = fs.readFileSync("./day5.txt").toString();
+var input = fs.readFileSync("./inputs/day5.txt").toString();
 let textArray = input.split("\r\n");
 
 const numberOfRows = 127;
